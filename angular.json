@@ -23,7 +23,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "assets",
+             
               "src/favicon.ico",
               "src/assets"
             ],
@@ -91,6 +91,7 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
+              "assets",
               "src/favicon.ico",
               "src/assets"
             ],
