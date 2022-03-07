@@ -4,11 +4,13 @@ import { LoginComponent } from './prision/login/login.component';
 import { WardComponent } from './prision/ward/ward.component';
 import { ReportsComponent } from './prision/reports/reports.component';
 import { HomeComponent } from './prision/home/home.component';
+import { RegisterComponent } from './prision/register/register.component';
 const routes: Routes = [
   { path: 'wards', component: WardComponent },
   { path: 'login', component: LoginComponent },
   { path: 'reports', component: ReportsComponent},
   {path: 'home', component: HomeComponent},
+  {path: 'register',component: RegisterComponent},
   { path: '**', redirectTo: '/home', pathMatch:'prefix' }
 ];
 

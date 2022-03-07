@@ -9,6 +9,7 @@ import { LoginComponent } from './prision/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ReportsComponent } from './prision/reports/reports.component';
 import { HomeComponent } from './prision/home/home.component';
+import { RegisterComponent } from './prision/register/register.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +17,7 @@ import { HomeComponent } from './prision/home/home.component';
     LoginComponent,
     ReportsComponent,
     HomeComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
