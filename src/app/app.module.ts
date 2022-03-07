@@ -8,12 +8,14 @@ import { WardComponent } from './prision/ward/ward.component';
 import { LoginComponent } from './prision/login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ReportsComponent } from './prision/reports/reports.component';
+import { HomeComponent } from './prision/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
     WardComponent,
     LoginComponent,
     ReportsComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
